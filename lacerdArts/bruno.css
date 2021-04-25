@@ -109,4 +109,23 @@ img {
 	vertical-align: top;
 }
 
+.icons {
+	margin-left: 500px;
+	font-size: 15px;
+	color: purple;
+	font-weight: bold;
+	font-family: zen dots;
+
+}
+
+.icons a {
+	list-style: none;
+	text-decoration: none;
+}
+
+.icons a:hover {
+	font-size: 25px;
+	transition: .1s ease all;
+}
+
 
