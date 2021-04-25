@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	background-image: url('img/background.jpg');
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	width: 15.625em;
+	height: 17.5em;
+}
+
+.container {
+	width: 90%;
+	max-width: 980%;
+	margin: auto;
+}
+
+.logo {
+	font-family: zen dots;
+	height: 15vw;
+	width:100%;
+	font-size: 6vh;
+	font-weight: bold;
+	color: white;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+	padding: 0 100px;
+	line-height: 80px;
+	text-align: center;
+}
+
+.imagens-container {
+	margin-bottom: 70px;
+}
+
+.imagens-container .conteudo-principal {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.imagens-container .conteudo-principal .flecha-esquerda, 
+.imagens-container .conteudo-principal .flecha-direita {
+	position: absolute;
+	border: none;
+	background: rgba(0,0,0,0.3);
+	font-size: 40px;
+	height: 50%;
+	top: calc(50% - 25%);
+	line-height: 40px;
+	width: 50px;
+	color: #fff;
+	cursor: pointer;
+	z-index: 500;
+	transition: .2s ease all;
+}
+
+.imagens-container .conteudo-principal .flecha-esquerda:hover, 
+.imagens-container .conteudo-principal .flecha-direita:hover {
+	background: rgba(0,0,0,0.6);
+}
+
+.imagens-container .conteudo-principal .flecha-esquerda {
+	left: 0;
+}
+
+.imagens-container .conteudo-principal .flecha-direita {
+	right: 0;
+}
+
+.imagens-container .carousel-container {
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.imagens-container .carousel-container .carousel {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.imagens-container .carousel-container .carousel .desenho {
+	min-width: 20%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+}
+
+.imagens-container .carousel-container .carousel .desenho:hover {
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+.imagens-container .carousel-container .carousel .desenho img {
+	width: 100%;
+	padding: 5px;
+	vertical-align: top;
+}
+
+
