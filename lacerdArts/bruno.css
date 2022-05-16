@@ -34,7 +34,7 @@ img {
 	font-size: 6vh;
 	font-weight: bold;
 	color: white;
-	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-width: 0.3125vh;
     -webkit-text-stroke-color: #000;
 	padding: 0 100px;
 	line-height: 80px;
@@ -93,7 +93,7 @@ img {
 }
 
 .imagens-container .carousel-container .carousel .desenho {
-	min-width: 326px;
+	min-width: 30%;
 	transition: .3s ease all;
 	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
 }
@@ -128,4 +128,6 @@ img {
 	transition: .1s ease all;
 }
 
-
+@media (max-width: 326px) {
+	
+}
