@@ -30,8 +30,8 @@ img {
 h1 {
 	font-family: zen dots;
 	height: 15vw;
-	width:27%;
-	font-size: 8vh;
+	width:24%;
+	font-size: 7vh;
 	font-weight: bold;
 	color: white;
 	-webkit-text-stroke-width: 0.3125vh;
@@ -91,7 +91,7 @@ h1 {
 }
 
 .imagens-container .carousel-container .carousel .desenho {
-	min-width: 40%;
+	min-width: 50%;
 	transition: .3s ease all;
 	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
 }
