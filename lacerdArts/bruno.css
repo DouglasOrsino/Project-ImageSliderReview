@@ -91,7 +91,7 @@ h1 {
 }
 
 .imagens-container .carousel-container .carousel .desenho {
-	min-width: 35%;
+	min-width: 40%;
 	transition: .3s ease all;
 	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
 }
