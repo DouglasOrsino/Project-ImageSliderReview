@@ -29,13 +29,13 @@ img {
 
 .logo {
 	font-family: zen dots;
-	height: 5vw;
-	width:15vw;
-	font-size: 6vh;
+	height: 15vw;
+	width:100%;
+	font-size: 5vh;
 	font-weight: bold;
 	color: white;
 	-webkit-text-stroke-width: 0.3125vh;
-    -webkit-text-stroke-color: #000;
+    	-webkit-text-stroke-color: #000;
 	padding: 0 100px;
 	line-height: 80px;
 	text-align: center;
